@@ -2,10 +2,13 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
+    margin: 0;
 }
 
 .sidebar{
     background-color: red;
+    width: 20%;
+    height: 600px;
 }
 
 .content-container{
@@ -28,6 +31,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: 3;
+    background-color: aquamarine;
 }
 
 .right-grid{
@@ -36,5 +40,18 @@ body{
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 2;
-    
+    background-color: bisque;
 }
+
+.left-grid-item{
+    padding:10px;
+}
+
+.announcement-item{
+    padding:10px;
+}
+
+.trending-item{
+    padding:10px;
+}
+
