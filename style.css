@@ -23,7 +23,13 @@ body{
 }
 
 .sidebar{
+   display: flex;
+   padding: 10px;
+}
 
+.sidebar-content{
+    margin: 10px;
+    padding: 3px;
 }
 
 .headbar{
