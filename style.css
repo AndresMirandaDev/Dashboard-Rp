@@ -71,13 +71,28 @@ body{
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color:#1d2649;
-    height: 100px;
+    background-color:#d47a64;
+    height: 110px;
+    box-shadow: 5px 6px 14px rgb(142, 140, 140);
 }
 
-.headbar-container{
+#headbar-above-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+#headbar-bottom-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#account-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Oswald', sans-serif;
 }
 
 #searchbar{
@@ -85,7 +100,31 @@ body{
     border: none;
     border-radius: 10px;
     padding: 3px;
-    margin-right: 300px;
+}
+
+#searchbar-container{
+    padding: 5px;
+}
+
+#alert-icon-container{
+    padding: 5px;
+}
+
+#profile-picture-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-pic{
+    border-radius: 40px;
+    margin: 3px;
+}
+
+#profile-name{
+    display: inline;
+    font-family:'Oswald', sans-serif;
+    margin: 10px;
 }
 
 .button-container{
@@ -94,8 +133,21 @@ body{
 }
 
 .button-container button{
-    margin-left:10px;
-    margin-right: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    width: 100px;
+    background-color:#4d5ba7;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.button-container button:hover{
+    box-shadow: 4px 6px 10px #8a4f41;
+    transform: scale(1.03);
+    transition: 0.7s;
 }
 
 .content-container{
