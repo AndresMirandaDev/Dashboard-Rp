@@ -75,6 +75,29 @@ body{
     height: 100px;
 }
 
+.headbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#searchbar{
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    margin-right: 300px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-container button{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
 .content-container{
     grid-column-start: 2;
     grid-column-end: 6;
@@ -118,6 +141,12 @@ body{
     border-left: solid 5px rgb(59, 78, 126);
     border-radius: 8px;
     background-color: aliceblue;
+}
+
+.left-grid-item:hover{
+    box-shadow: 3px 4px 15px grey;
+    transform: scale(1.07);
+    transition: 0.8s;
 }
 
 .left-grid-item h5{
