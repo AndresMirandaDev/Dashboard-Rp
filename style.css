@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Rubik+Moonrocks&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@200;400&family=Rubik+Moonrocks&display=swap');
 body{
     height: 100vh;
     width: 100vw;
     margin : 0;
-    background-color: rgb(143, 187, 205);
+    background-color: #f7fcf4;
 }
 
 .container{
@@ -19,13 +18,37 @@ body{
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
-    background-color: rgb(57, 11, 173);
+    background-color: #4d5ba7;
     color: aliceblue;
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 25px;
+    font-family:'Oswald', sans-serif;
     text-orientation: sideways-right;
+    box-shadow: 3px 3px 20px rgb(151, 146, 146);
+}
+
+#sidebar-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.link{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.link:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .sidebar{
@@ -38,12 +61,17 @@ body{
     padding: 3px;
 }
 
+.sidebar-content:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .headbar{
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: green;
+    background-color:#1d2649;
     height: 100px;
 }
 
@@ -128,7 +156,7 @@ body{
     margin: 10px;
     padding: 10px;
     width: 200px;
-    border-radius: 5px ;
+    border-radius: 10px ;
     background-color: azure;
 
 }
@@ -142,7 +170,7 @@ body{
     margin: 10px;
     padding: 10px;
     width: 200px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: azure;
 
 }
